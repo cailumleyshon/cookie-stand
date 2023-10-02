@@ -1,0 +1,44 @@
+* {
+  background-color: #e6aa68;
+  font-family: monospace;
+}
+
+form {
+  display: flex;
+  width: 30%;
+}
+
+form fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+form legend {
+  text-align: center;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+}
+
+form fieldset,
+form legend,
+label,
+input,
+button {
+  background-color: #fffbbd;
+}
+
+button {
+  margin-top: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+form fieldset,
+form legend,
+input,
+button {
+  border: #7fb069 ridge 2px;
+}

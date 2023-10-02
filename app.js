@@ -131,7 +131,7 @@ locationForm.addEventListener("submit", function (event) {
   const maxCust = event.target.maxCustomers.value;
   const average = event.target.averageCookies.value;
 
-  const newLocation = new CookieStore(location, minCust, maxCust, average);
+  const newLocation = new CookieStore(location, +minCust, +maxCust, +average);
 
   newLocation.render();
 });
